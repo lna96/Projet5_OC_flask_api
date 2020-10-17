@@ -35,4 +35,4 @@ jobs:
         app-name: 'flask-app-tags'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_c633fd880fba49a6a79fc977eaf30fcb }}
-        package: '.\myapp.zip'
+        package: '.\app.zip'
